@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Gallery</title>
+    <link rel="stylesheet" href="dist/output.css" />
+  </head>
+  <body>
+    <header class="container flex justify-center pt-8">
+      <div class="flex flex-col items-center">
+        <img src="src/img/profilePhoto.png" alt="" class="w-24 rounded-2xl md:w-32" />
+        <div class="pt-2 text-center">
+          <h3 class="text-base font-semibold text-[#4E5150] md:text-xl">Rodney Cotton</h3>
+          <h3 class="text-xs text-[#A9A9A9] md:text-base">Helsinki, Finland</h3>
+        </div>
+        <div class="flex gap-3 pt-2 pb-8 md:gap-6">
+          <div class="h-12 w-20 rounded-xl bg-[#e5e5e5] py-2">
+            <h3 class="text-center text-xs font-semibold text-[#4E5150]">100</h3>
+            <h3 class="text-center text-xs text-[#9c9c9c]">Post</h3>
+          </div>
+          <div class="h-12 w-20 rounded-xl bg-[#e5e5e5] py-2">
+            <h3 class="text-center text-xs font-semibold text-[#4E5150]">2.242</h3>
+            <h3 class="text-center text-xs text-[#9c9c9c]">Followers</h3>
+          </div>
+          <div class="h-12 w-20 rounded-xl bg-[#e5e5e5] py-2">
+            <h3 class="text-center text-xs font-semibold text-[#4E5150]">1.432</h3>
+            <h3 class="text-center text-xs text-[#9c9c9c]">Following</h3>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container flex justify-center pb-32 md:px-4 lg:max-w-[60%]">
+      <div class="grid grid-cols-3 grid-rows-3 gap-3 px-6 md:gap-6">
+        <img src="src/img/photo1.png" alt="" class="rounded-xl shadow-md shadow-slate-400" />
+        <img src="src/img/photo2.png" alt="" class="col-span-2 rounded-xl shadow-md shadow-slate-400" />
+        <img src="src/img/photo3.png" alt="" class="col-span-2 rounded-xl shadow-md shadow-slate-400" />
+        <img src="src/img/photo4.png" alt="" class="row-span-2 rounded-xl shadow-md shadow-slate-400" />
+        <img src="src/img/photo5.png" alt="" class="rounded-xl shadow-md shadow-slate-400" />
+        <img src="src/img/photo6.png" alt="" class="rounded-xl shadow-md shadow-slate-400" />
+      </div>
+    </main>
+
+    <footer class="container py-4">
+      <h3 class="text-center text-sm text-[#B9BDCF]">created by <a href="https://github.com/ericprt" class="font-bold">ericprt</a> - devChallenges.io</h3>
+    </footer>
+  </body>
+</html>
